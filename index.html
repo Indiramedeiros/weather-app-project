@@ -4,9 +4,102 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c17f8b0c03.js" crossorigin="anonymous"></script>
+<title>WireframeProject</title>
   </head>
   <body>
-    Hello World
+    <div class="container">
+      <div class="row">
+        <div class="col-4" id="month-day">
+          <h3>July 14</h3>
+        </div>
+        <div class="col-4" id="week-day">
+          <h3>Thursday</h3>
+        </div>
+        <div class="col-4" id=hour>
+          <h3>4:45pm</h3>
+        </div>
+      </div>
+      <h1>
+        
+      </h1>
+
+      <span class="cloud-sun-image">
+         <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i>
+         </span>
+      <span id="current-temperature"></span>  
+       
+        <span class="units">
+          °C
+        </span>
+
+      <h4 id="current-description">Partly Cloudy</h4>
+      <p id="current-humidity">Humidity: 30%</p>
+      <p id="current-wind">Wind: 10mph </p>
+      
+      <div class="row">
+      <div class="col-6">
+     <form id="enter-city">
+       <div class="form-row align-items-center">
+        <input type="text" class="form-control" autofocus="on" placeholder="Enter City" id="city-name">
+     </div>
+  </div>
+      <button type="submit" class="btn btn-info mb-2 shadow">
+        Search</button>
+    </div>
+    <div  id="current-button" >
+      <button type="button" class="btn btn-secondary  shadow">Current</button>
+    </div>
+</form>
+
+<div class="temperature">
+<div class="row">
+    <div class="col">
+        <h3>Fri</br> 
+          <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i>
+        </br>
+        26°</h3>
+    </div>
+    <div class="col">
+        <h3>Sat</br> 
+            <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i></br>
+        27°</h3>
+    </div>
+    <div class="col">
+        <h3>Sun </br> 
+            <i class="fa-solid fa-cloud-sun cloud-sun-icon"></i></br>
+        30°</h3>
+</div>
+    <div class="col">
+        <h3>Mon</br> 
+          <i class="fa-solid fa-sun sun-icon"></i>
+           </br>
+        36°</h3>
+</div>
+    <div class="col">
+        <h3>Tue </br> 
+           <i class="fa-solid fa-sun sun-icon"></i>
+        </br>
+        37°</h3>
+        </div>
+    </div>
+    </div>
+    </div>
+    <small>Coded by Rafaela Medeiros</small>
+    <script src="index.js"></script>
   </body>
 </html>
+
